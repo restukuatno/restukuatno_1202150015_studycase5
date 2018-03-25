@@ -1,0 +1,49 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radiocolor"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@android:color/holo_green_dark"
+                android:text="Default" />
+
+            <RadioButton
+                android:id="@+id/red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@android:color/holo_green_dark"
+                android:text="Red" />
+
+            <RadioButton
+                android:id="@+id/green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@android:color/holo_green_dark"
+                android:text="Green" />
+
+            <RadioButton
+                android:id="@+id/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@android:color/holo_green_dark"
+                android:text="Blue" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
